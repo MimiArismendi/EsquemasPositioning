@@ -1,0 +1,72 @@
+body{
+  background-color: #F7D097;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 35px;
+  display: block;
+  background-color: #C70039  ;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+.contenedor{
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.padre{
+  width: 200px;
+  height: 200px;
+}
+
+.hijo{
+  width: 100px;
+  height: 100px;
+}
+
+.nieto{
+  width: 50px;
+  height: 50px;
+}
+
+.espacio{
+  height: 20px;
+}
+#rojo{
+  background-color: red;
+  position: relative;
+}
+
+#morado{
+  background-color: purple;
+  position: absolute;
+  left: 50px;
+  top:50px;
+}
+
+#amarillo{
+  background-color: yellow;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#azul{
+  background-color: blue;
+  position: relative;
+}
+
+#verde{
+  background-color: green;
+  position: absolute;
+  left: 50px;
+  top:50px;
+}
+
+#negro{
+  background-color: black;
+  position: absolute;
+}
